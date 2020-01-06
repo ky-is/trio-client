@@ -1,0 +1,34 @@
+{
+  "name": "@ky-is/trio-client",
+  "version": "0.1.0",
+  "description": "Conform a client to the Trio socket server.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Kyle Coburn",
+  "license": "ISC",
+  "scripts": {
+    "prepare": "tsc && sed -i '' -e $'s/    /\t/g' $(find dist -type f)"
+  },
+  "dependencies": {
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "@ky-is/eslint-config": "^1.8.2",
+    "@types/socket.io-client": "^1.4.32",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.3"
+  },
+  "eslintConfig": {
+    "extends": "@ky-is/eslint-config/typescript"
+  },
+  "eslintIgnore": [
+    "dist"
+  ],
+  "files": [
+    "dist"
+  ]
+}
