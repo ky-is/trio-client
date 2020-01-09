@@ -1,6 +1,7 @@
 {
   "name": "@ky-is/trio-client",
   "version": "1.0.0",
+  "license": "ISC",
   "description": "Conform a client to the Trio socket server.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
