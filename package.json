@@ -2,11 +2,13 @@
   "name": "@ky-is/trio-client",
   "version": "1.0.0",
   "license": "ISC",
+  "repository": "https://github.com/project-trio/trio-client",
   "description": "Conform a client to the Trio socket server.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Kyle Coburn",
-  "license": "ISC",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "tsc && sed -i '' -e $'s/    /\t/g' $(find dist -type f)"
   },
@@ -27,9 +29,6 @@
     "extends": "@ky-is/eslint-config/typescript"
   },
   "eslintIgnore": [
-    "dist"
-  ],
-  "files": [
     "dist"
   ]
 }
