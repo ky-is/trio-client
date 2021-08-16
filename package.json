@@ -1,6 +1,6 @@
 {
   "name": "@ky-is/trio-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "repository": "https://github.com/project-trio/trio-client",
   "description": "Conform a client to the Trio socket server.",
